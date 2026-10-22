@@ -32,7 +32,10 @@ class SnapshotTests(unittest.TestCase):
         self.assertEqual(snapshot["players"][0]["hand"], [])
         self.assertEqual(snapshot["players"][0]["hand_count"], 3)
         self.assertEqual(snapshot["starting_coins"], 6)
-        self.assertEqual(game_from_snapshot(snapshot).starting_coins, 6)
+        mirror = game_from_snapshot(snapshot)
+        self.assertEqual(mirror.starting_coins, 6)
+        self.assertEqual(mirror.players[0].hand, [])
+        self.assertEqual(mirror.players[0].hand_count, 3)
 
     def test_snapshot_round_trip_preserves_public_state(self):
         game = KnackGame(2, rng=random.Random(7))

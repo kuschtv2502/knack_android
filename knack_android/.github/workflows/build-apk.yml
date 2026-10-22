@@ -1,0 +1,47 @@
+name: Android-APK bauen
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - "main.py"
+      - "knack/**"
+      - "assets/**"
+      - "buildozer.spec"
+      - ".github/workflows/build-apk.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Projekt laden
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regel- und Crossplay-Tests
+        run: python -m unittest discover -s tests -v
+
+      - name: APK mit dem offiziellen Buildozer-Container bauen
+        run: |
+          docker pull ghcr.io/kivy/buildozer:latest
+          docker run --rm \
+            --volume "$GITHUB_WORKSPACE:/home/user/hostcwd" \
+            ghcr.io/kivy/buildozer:latest android debug
+
+      - name: APK zum Herunterladen bereitstellen
+        uses: actions/upload-artifact@v4
+        with:
+          name: Knack-Android-V17
+          path: bin/*.apk
+          if-no-files-found: error
+          retention-days: 30
+
