@@ -1,0 +1,37 @@
+KNACK V17 – APK AUF GITHUB ERSTELLEN
+=====================================
+
+1. Entpacke das ZIP-Paket.
+2. Lade den INHALT des Ordners in dein Knack-GitHub-Repository hoch.
+   Wichtig: Auch der versteckte Ordner ".github" muss hochgeladen werden.
+3. Öffne auf GitHub oben den Reiter "Actions".
+4. Wähle links "Android-APK bauen".
+5. Klicke rechts auf "Run workflow" und bestätige erneut mit "Run workflow".
+6. Warte, bis der Lauf einen grünen Haken zeigt. Der erste Bau dauert länger,
+   da Android SDK und NDK heruntergeladen werden.
+7. Öffne den abgeschlossenen Lauf.
+8. Lade unten unter "Artifacts" die Datei "Knack-Android-V17" herunter.
+9. Entpacke diesen Download. Darin liegt die installierbare APK.
+10. Kopiere die APK auf das Android-Handy und öffne sie. Erlaube bei Bedarf
+    einmalig "Unbekannte Apps aus dieser Quelle installieren".
+
+CROSSPLAY TESTEN
+----------------
+
+- Der Lobby-Server auf kuschtv.zapto.org:45455 muss laufen.
+- Auf einem Gerät eine Lobby erstellen.
+- Auf dem anderen Gerät den Lobby-Browser öffnen und beitreten.
+- Android kann mit Windows oder einem zweiten Android-Gerät spielen.
+- Die Online-Partie unterstützt aktuell zwei menschliche Spieler.
+
+WENN DIE APP NICHT STARTET
+--------------------------
+
+Das Handy per USB mit dem PC verbinden, USB-Debugging aktivieren und in einer
+Eingabeaufforderung ausführen:
+
+adb logcat | findstr /I "python kivy traceback"
+
+Den angezeigten Fehlertext oder einen Screenshot davon für die Fehlersuche
+aufheben.
+

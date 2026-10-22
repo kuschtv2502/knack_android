@@ -1,0 +1,323 @@
+Knack – Regelwerk (nach euren Hausregeln)
+
+Dieses Regelwerk basiert auf den Regeln, die wir gemeinsam für eure Spielrunde festgehalten haben.
+
+Spielmaterial
+
+Gespielt wird mit einem Kartensatz bestehend aus:
+
+Karo
+Herz
+Pik
+Kreuz
+
+Kartenwerte:
+
+7
+8
+9
+10
+Bube
+Dame
+König
+Ass
+
+Jeder Spieler besitzt:
+
+3 Münzen (Leben)
+3 Handkarten
+
+In der Tischmitte liegen immer:
+
+3 offene Mittelkarten
+
+Zusätzlich gibt es:
+
+einen Nachziehstapel
+einen Friedhof (Ablagestapel)
+einen Pot für verlorene Münzen
+Ziel des Spiels
+
+Verliere möglichst keine Münzen.
+
+Wer seine letzte Münze verliert, scheidet aus.
+
+Gewonnen hat der letzte verbleibende Spieler.
+
+Kartenwerte
+Karte	Wert
+Ass	11
+König	10
+Dame	10
+Bube	10
+10	10
+9	9
+8	8
+7	7
+Punkte zählen
+
+Es zählen nur Karten derselben Farbe.
+
+Beispiel:
+
+♥ Ass
+♥ König
+♠ Ass
+
+Ergebnis:
+
+21 Punkte
+
+nicht:
+
+32 Punkte
+
+da nur die beste Farbkombination gewertet wird.
+
+Farb-Reihenfolge
+
+Bei Gleichständen entscheidet die Farbe.
+
+Reihenfolge:
+
+Karo < Herz < Pik < Kreuz
+
+also:
+
+Kreuz ist die höchste Farbe.
+Spielbeginn
+
+Zu Beginn einer Runde:
+
+Jeder Spieler erhält 3 Karten.
+3 Karten werden offen in die Mitte gelegt.
+Schieben
+
+Ein Spieler kann schieben.
+
+Das bedeutet:
+
+Er setzt diese Runde aus.
+Er tauscht keine Karten.
+
+Wenn alle Spieler hintereinander schieben:
+
+Die 3 Mittelkarten kommen auf den Friedhof.
+3 neue Karten werden vom Nachziehstapel offen ausgelegt.
+Zumachen
+
+Ein Spieler kann zumachen.
+
+Danach:
+
+Jeder nachfolgende Spieler erhält noch genau einen Zug.
+Danach endet die Runde.
+Die Karten werden aufgedeckt und ausgewertet.
+Knack
+
+Ein Knack ist ein Sofortsieg.
+
+Voraussetzung:
+
+Der Spieler hat:
+
+20 oder 21 Punkte
+
+auf der Hand.
+
+Zusätzlich liegt in der Mitte eine passende Karte, mit der sich:
+
+31 Punkte
+
+bilden lassen.
+
+Beispiele:
+
+♥ Ass
+♥ König
+
+=
+
+21 Punkte
+
+liegt in der Mitte:
+
+♥ 10
+
+darf der Spieler:
+
+KNACK
+
+rufen und seine Handkarten auf die Mitte werfen.
+
+Die Runde endet sofort.
+
+Jackpot
+
+Der Jackpot ist ein Sofortgewinn des gesamten Pots.
+
+Voraussetzung:
+
+Auf der Hand:
+
+Ass
+Ass
+X
+
+In der Mitte:
+
+Ass
+
+Der Spieler nimmt das Ass nicht auf.
+
+Stattdessen wirft er sofort seine Handkarten auf die Mitte.
+
+Er gewinnt:
+
+den gesamten Pot
+
+Die Runde endet sofort.
+
+Halbe
+
+Drei gleiche Karten bilden eine Halbe.
+
+Beispiele:
+
+777
+888
+999
+101010
+BBB
+DDD
+KKK
+
+Jede Halbe zählt als:
+
+30,5 Punkte
+
+und schlägt jede normale Hand.
+
+Rangfolge der Halben
+
+Von niedrig nach hoch:
+
+777
+888
+999
+101010
+BBB
+DDD
+KKK
+
+Beispiel:
+
+KKK
+
+schlägt:
+
+DDD
+Farbvergleich bei Halben
+
+Bei gleicher Halbe entscheidet die Farbe:
+
+Karo < Herz < Pik < Kreuz
+
+Beispiel:
+
+777 Kreuz
+
+schlägt:
+
+777 Herz
+Drei Asse (AAA)
+
+Hand:
+
+Ass
+Ass
+Ass
+
+Wenn ein Spieler am Ende der Runde noch AAA hält:
+
+Er verliert die Runde.
+Er zahlt keine Münze.
+Es erfolgt kein Einwurf in den Pot.
+
+AAA wird nicht wie eine normale Hand gewertet.
+
+Verbotene 31
+
+Beispiel:
+
+♥ Ass
+♥ König
+♥ 10
+
+=
+
+31 Punkte
+
+Während der Runde:
+
+Der Spieler darf weiter tauschen.
+Er darf versuchen, die 31 wieder loszuwerden.
+
+Erst bei der Auswertung gilt:
+
+31 Punkte = schlechteste Hand
+
+Der Spieler verliert die Runde und zahlt eine Münze.
+
+Auswertung
+
+Die Wertung erfolgt in folgender Reihenfolge:
+
+Jackpot
+Knack
+Halbe
+Normale Punkte
+AAA (Sonderfall)
+Verbotene 31 (schlechteste Hand)
+Gleichstände
+
+Bei gleicher Punktzahl:
+
+Höhere Farbe gewinnt.
+Karo < Herz < Pik < Kreuz
+
+Wenn anschließend immer noch Gleichstand besteht:
+
+Beispiel:
+
+29 Herz
+gegen
+29 Herz
+
+oder
+
+777 Herz
+gegen
+777 Herz
+
+Dann verlieren beide Spieler.
+
+Beide zahlen eine Münze in den Pot.
+
+Münzen und Pot
+
+Der Verlierer einer Runde:
+
+zahlt eine Münze in den Pot.
+
+Hat ein Spieler keine Münzen mehr:
+
+scheidet er aus.
+
+Der Jackpot-Gewinner erhält den gesamten Pot.
+
+Spielsieg
+
+Das Spiel endet, wenn nur noch ein Spieler Münzen besitzt.
+
+Dieser Spieler gewinnt die Partie.
